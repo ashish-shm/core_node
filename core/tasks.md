@@ -29,7 +29,7 @@
 // math.js
 const pie = 3.14;
 function sum() {}
-function multiply() {}
+function multiply(a, b) => {a * b}
 // export it from math.js
 ```
 
@@ -39,7 +39,7 @@ function multiply() {}
 ```js
   module.exports = {
     pie: 3.14,
-    add: () => {}
+    add: (a, b) => {a + b}
   }
 ```
   3. Define above using exports 
